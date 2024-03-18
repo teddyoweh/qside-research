@@ -55,6 +55,7 @@ RAC1P: Race code
                     f"The x-axis represents age, while the y-axis represents frequency. " \
                     f"The data is divided into {num_bins} bins to visualize the distribution. " \
                     f"The plot shows how the ages are distributed across the dataset, " \
+                    f"here is the data: {age_data}"\
              f"with the highest frequency occurring in certain age ranges."
 
             return self.call_gpt(prompt)
